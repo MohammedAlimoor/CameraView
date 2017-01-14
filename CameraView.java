@@ -28,7 +28,7 @@ public class CameraView extends SurfaceView implements SurfaceHolder.Callback {
     Camera.PictureCallback rawCallback;
     Camera.ShutterCallback shutterCallback;
     Camera.PictureCallback jpegCallback;
-public int defaultCamera = Camera.CameraInfo.CAMERA_FACING_FRONT;
+public int defaultCamera = Camera.CameraInfo.CAMERA_FACING_BACK;
     public CameraView(Context context) {
         super(context);
         ini();
